@@ -11,7 +11,7 @@ jobs:
       with:
         fetch-depth: '0'
     - name: Bump version and push tag
-      uses: autoseg/scripts-gitn@main
+      uses: autoseg/scripts-git@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         WITH_V: true
